@@ -1,0 +1,8 @@
+services:
+  codedev:
+    image: fasthtml:latest
+    restart: always
+    volumes:
+      - ./workspace:/home/python/workspace
+      - ./vscode-server:/home/python/.vscode-server
+      - ./user:/home/python/user
