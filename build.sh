@@ -1,1 +1,1 @@
-docker build . fasthtml:latest
+docker build . -t fasthtml:latest
